@@ -1,0 +1,219 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* customized css as following */
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+/* css reset ends. */
+
+body{
+    margin: 0 auto;
+    font-family:"arial";
+    
+}
+.container{
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+}
+.w-383{
+    width: 383px;
+    margin: 0 auto;
+}
+.font-i-b{
+    font-style: italic;
+    font-size: 24px;
+    font-weight: bold;
+}
+.font-i{
+    font-style: italic;
+    font-size: 24px;
+    text-align: center;
+}
+.font-lh42{
+    line-height: 42px;
+}
+.font-lh36{
+    line-height: 36px;
+}
+.f-sz30{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+h2{
+    font-size: 64px;
+    line-height: 84px;
+    text-align: center;
+    padding-top: 56px;
+    margin-bottom: 40px;
+}
+h3{
+    font-size: 20px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 48px;
+    font-style: italic;
+}
+
+.header{
+    max-width:1920px;
+    height: 958px; 
+    background: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week2/banner.png?raw=true") no-repeat center;
+    margin: 0 auto;
+    color: #ffffff;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.header-content{
+    padding-left: 40px;
+}
+
+.header span{
+    align-self:flex-start;
+}
+.header h1{
+    font-size: 80px;
+    line-height: 106px;
+}
+.header a{
+    display: inline-block;
+    padding-top: 60px;
+    padding-right: 16px;
+}
+
+
+.profilo-content{
+    border-bottom: 1px solid #000;
+    list-style-type: none;
+}
+.profilo-motto{
+    padding-bottom: 56px;
+}
+.profilo-motto li{
+    padding-top: 28px;
+}
+.profilo-motto li::before{
+    content:"\A";
+    margin-left: 5px;
+    margin-right: 15px;
+    background-color: #891818;
+    width: 20px;
+    height: 20px;
+    display:inline-block;
+    border-radius:50%;
+    border:1px solid #000;
+}
+/* Specify a value for the content property, and then add display:inline-block */
+
+.brand{
+    background-color:#000;
+    color: #ffffff;
+    font-style: italic;
+}
+.brand span{
+    padding-top: 12px;
+    padding-bottom: 32px;
+    display: block;
+}
+
+
+.brand p{
+    padding-bottom: 68px;
+}
+.brand-pic{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: 0 auto;
+    padding-bottom: 160px;
+
+}
+.brand-pic li{
+    padding-top: 12px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.collection-ex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 56px;
+}
+
+.footer{
+    padding-bottom: 64px;
+    background-color: #000;
+    color: #ffffff;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer a:hover{
+    text-decoration:underline;
+}
+.contact-info li{
+    display: block;
+    padding-top: 16px;
+}

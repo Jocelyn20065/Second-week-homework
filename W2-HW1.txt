@@ -1,0 +1,9 @@
+analyse of the content structure:
+
+1.header>div.header-content>span+h1+p+(a>img)*4
+2.content>div.profilo>h2+img+ul.profilo-content>li*4^ul.motto>li*3^^div.brand>h2+p+ul.brand-pic>(li>img)*3^^div.collection>h2+p+ul.collection-ex>(li>img+h3)*8
+3.footer>h2+ul.contact-info>(li>a)*2
+
+size:
+whole:1920*1080
+container:1200
