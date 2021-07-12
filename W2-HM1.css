@@ -67,7 +67,6 @@ body{
 .container{
     max-width: 1200px;
     text-align: center;
-    margin: 0 auto;
 }
 .w-383{
     width: 383px;
@@ -77,35 +76,28 @@ body{
     font-style: italic;
     font-size: 24px;
     font-weight: bold;
+    line-height: 42px;
 }
 .font-i{
     font-style: italic;
     font-size: 24px;
-    text-align: center;
-}
-.font-lh42{
     line-height: 42px;
 }
-.font-lh36{
-    line-height: 36px;
-}
+
 .f-sz30{
     font-size: 20px;
     line-height: 30px;
-    text-align: center;
 }
 
 h2{
     font-size: 64px;
     line-height: 84px;
-    text-align: center;
     padding-top: 56px;
     margin-bottom: 40px;
 }
 h3{
     font-size: 20px;
     line-height: 42px;
-    text-align: center;
     margin-bottom: 48px;
     font-style: italic;
 }
@@ -142,9 +134,9 @@ h3{
 
 
 .profilo-content{
-    border-bottom: 1px solid #000;
-    list-style-type: none;
+    border-bottom: 1px solid #000; 
 }
+
 .profilo-motto{
     padding-bottom: 56px;
 }
@@ -168,6 +160,7 @@ h3{
     background-color:#000;
     color: #ffffff;
     font-style: italic;
+    text-align: center;
 }
 .brand span{
     padding-top: 12px;
