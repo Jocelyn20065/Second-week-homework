@@ -62,61 +62,50 @@ img{
 body{
     margin: 0 auto;
     font-family:"arial";
+    line-height: 1.5;
+    
     
 }
 .container{
     max-width: 1200px;
-    text-align: center;
-}
-.w-383{
-    width: 383px;
     margin: 0 auto;
+
 }
+
 .font-i-b{
     font-style: italic;
     font-size: 24px;
     font-weight: bold;
-    line-height: 42px;
 }
 .font-i{
     font-style: italic;
     font-size: 24px;
-    line-height: 42px;
 }
 
 .f-sz30{
     font-size: 20px;
-    line-height: 30px;
 }
 
 h2{
     font-size: 64px;
-    line-height: 84px;
     padding-top: 56px;
     margin-bottom: 40px;
 }
 h3{
     font-size: 20px;
-    line-height: 42px;
     margin-bottom: 48px;
     font-style: italic;
 }
 
 .header{
-    max-width:1920px;
     height: 958px; 
     background: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week2/banner.png?raw=true") no-repeat center;
-    margin: 0 auto;
     color: #ffffff;
-    vertical-align: middle;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-}
-.header-content{
-    padding-left: 40px;
 }
 
 .header span{
@@ -124,19 +113,26 @@ h3{
 }
 .header h1{
     font-size: 80px;
-    line-height: 106px;
+}
+.social-media{
+    display: flex;
 }
 .header a{
-    display: inline-block;
+    display: block;
     padding-top: 60px;
     padding-right: 16px;
 }
-
-
+.profilo{
+    text-align: center;
+}
 .profilo-content{
-    border-bottom: 1px solid #000; 
+    padding-bottom: 32px;
 }
 
+hr{
+    width: 383px;
+    margin: 0 auto;
+}
 .profilo-motto{
     padding-bottom: 56px;
 }
@@ -185,7 +181,9 @@ h3{
     padding-left: 6px;
     padding-right: 6px;
 }
-
+.collection{
+    text-align: center;
+}
 .collection-ex{
     display: flex;
     flex-wrap: wrap;
@@ -194,6 +192,7 @@ h3{
 }
 
 .footer{
+    margin-top: 144px;
     padding-bottom: 64px;
     background-color: #000;
     color: #ffffff;
