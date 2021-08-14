@@ -1,35 +1,34 @@
-# Second-week-homework
+# Second-week-homework 
 
-note:
+## Record on: 2021/8/14
 
-Record on: 2021/8/14
 
 1. added animation effect into the second-week-homework as the seventh week homework.
 
-2. mostly used AOS to process. only the <h1> has been added an animation.css effect.
+2. mostly used AOS to process. 
 
 
-reference link(animation.css):
-https://animate.style/
-**how does it work?
---> add the link in the <header> space and use these two classe name 'animate__animated animate__bounceIn '. 
+3. reference link(animation.css):
+    https://animate.style/
+    **how does it work?
+    --> add the link in the <header> space and use these two classe name 'animate__animated animate__bounceIn '. 
     The second one depends on what function you would like to have, so it is changeable.
     
-reference info. for aos:
-https://michalsnik.github.io/aos/
+4. reference info. for aos:
+    https://michalsnik.github.io/aos/
 
-**how does it work?
+    **how does it work?
 
---> added below sentences before the end of the body ( mostly after </footer>)
+    --> added below sentences before the end of the body ( mostly after </footer>) <br>
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
  AOS.init();
-</script>
+</script> <br>
 
 --> if you would like to have a customized one. add this one:
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+`<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
 AOS.init({
