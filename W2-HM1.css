@@ -47,6 +47,27 @@ table {
 	border-spacing: 0;
 }
 
+/* 防止x軸 */
+html {
+    overflow-y: scroll;
+  }
+  
+  :root {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  :root body {
+    position: absolute;
+  }
+  
+  body {
+    width: 100vw;
+    overflow: hidden;
+  }
+
+/* 不知道為甚麼加入aos效果後，部分區塊會跑出X軸? 原因不明!! 但加入上面那些就可以清掉。 */
+
 /* customized css as following */
 
 img{
@@ -99,6 +120,7 @@ h3{
 
 .header{
     height: 958px; 
+    
     background: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week2/banner.png?raw=true") no-repeat center;
     color: #ffffff;
     display: flex;
